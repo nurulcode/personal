@@ -19,7 +19,7 @@ function App() {
                 </div>
 
                 <div className="content cf">
-                    <Home/>
+                    {/* <Home/> */}
                     <Sidebar nurul={nurul} />
                 </div>
 

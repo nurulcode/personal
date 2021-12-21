@@ -1,21 +1,23 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Contact from './core/Contact'
-import Home from './core/Home'
-import Menu from './core/Menu'
-import Projects from './core/Projects'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Contact from "./core/Contact";
+import Home from "./core/Home";
+import Menu from "./core/Menu";
+import Projects from "./core/Projects";
 
 const MainRouter = () => {
     return (
         <div>
-            <Menu/>
+            <Menu />
             <Routes>
-                <Route path='/' exact element={<Home/>}/>
-                <Route path='/projects' element={<Projects/>}/>
-                <Route path='/contact' element={<Contact/>}/>
+                <Route path="*" element={<Home />} />
+
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/" element={<Home />} />
             </Routes>
         </div>
-    )
-}
+    );
+};
 
-export default MainRouter
+export default MainRouter;
