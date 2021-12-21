@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+
+body {
+    font: 16px/28px arial;
+	background-color: #eaeaea;
+	background-image: url(./bananas.png);
+	color: #333;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+	background-color: #EBDAD3;
+	/* margin-top: 20px;
+	margin-bottom: 20px; */
+}
+
+.header {
+	padding: 20px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.header .title {
+	font-size: 40px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.header h3 {
+	padding-top: 20px ;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.header ul {
+	border-bottom: 1px solid salmon;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;	
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.header a:hover {
+	background-color: lightblue;
+	color: white;
+}
+
+.hero {
+	height: 280px;
+	/* background-image: url(./hero.png); */
+	background-size: cover;
+	background-position: 0 -180px;
+	border-bottom: 5px solid salmon;
+	border-top: 5px solid salmon;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+	border-right: 1px solid salmon;
+  text-align: left;
+}
+
+.main h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: lightslategray;
+	text-align: center;
+}
+
+.main .author {
+	font-size: 16px;
+	font-weight: bold;
+	color: salmon;
+}
+
+.main p {
+	margin-top: 20px;
+	font-size: 14px ;
+}
+
+
+.sidebar {
+	padding: 10px;
+	width: 300px;
+	float: left;
+}
+
+.sidebar .about {
+	padding-bottom: 20px;
+}
+
+.sidebar .about h3 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.sidebar .about img {
+	width: 120px;
+	height: 120px;
+	padding-right: 10px;
+	float: left;
+}
+
+.sidebar .touch {
+	border-top : 1px solid salmon;
+	padding-top: 20px;
+
+}
+
+.sidebar .touch h3 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.sidebar .touch ul {
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+.sidebar p {
+    font: 14px/16px arial;
+}
+
+.footer {
+	background-color: #333;
+	padding: 5px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+ .cf:before,
+ .cf:after {
+	 content: " "; /* 1 */
+	 display: table; /* 2 */
+ }
+ 
+ .cf:after {
+	 clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+	 *zoom: 1;
+ }
+
+ .table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  .table td, .table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  .table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table tr:hover {background-color: #ddd;}
+  
+  .table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #ebbba7;
+	color: black;
+  }
