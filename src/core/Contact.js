@@ -8,8 +8,8 @@ const Contact = () => {
 
                 <p>Business inquiries or hire me? </p>
 
-                <p>Email me at nurull.sarang@gmail.com</p>
-                <p>Phone or WhatsApp:+6282331860289</p>
+                <p>Email me at <strong style={{ fontWeight: 'bold', color: 'steelblue' }}>nurull.sarang@gmail.com</strong></p>
+                <p>Phone or WhatsApp: <strong style={{ fontWeight: 'bold', color: 'steelblue' }}>+6282331860289</strong></p>
 
                 <p>
                     Or you can follow my social media account to get updates:
