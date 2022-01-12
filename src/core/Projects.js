@@ -1,5 +1,6 @@
 import React from "react";
-import OpenSIMRS from "../open-simrs.png";
+import OpenSimrs from "../open-simrs.png";
+import SosialBlog from "../sosial-blog.png";
 
 const Projects = () => {
     return (
@@ -8,7 +9,8 @@ const Projects = () => {
                 <h2>Project</h2>
 
                 <p>
-                    You know, I was working on a project when I was a freelancer, but, here are some of my favorite projects.
+                    You know, I was working on a project when I was a
+                    freelancer, but, here are some of my favorite projects.
                 </p>
                 <table class="table table-border">
                     <thead>
@@ -19,10 +21,20 @@ const Projects = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td scope="row" style={{  textAlign: 'center' }}>
-                                <img src={OpenSIMRS} alt="Open SIIMRS" style={{width: "150px"}}/>
+                            <td scope="row" style={{ textAlign: "center" }}>
+                                <img
+                                    src={OpenSimrs}
+                                    alt="Hospital management information system"
+                                    style={{ width: "150px" }}
+                                />
                                 <p></p>
-                                <a href="https://simrs-dokterqu.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit Project</a>
+                                <a
+                                    href="https://simrs-dokterqu.herokuapp.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Project
+                                </a>
                             </td>
                             <td>
                                 <h5>OPEN SIMRS</h5>
@@ -30,6 +42,43 @@ const Projects = () => {
                                 <p>
                                     This is my most favorite open source
                                     project. Include API KemKes and JKN
+                                </p>
+                                <p style={{ color: "red" }}>
+                                    processing time : 1 year (continue to be
+                                    develop)
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style={{ textAlign: "center" }}>
+                                <img
+                                    src={SosialBlog}
+                                    alt="sosial media networks"
+                                    style={{ width: "150px" }}
+                                />
+                                <p></p>
+                                <span
+                                    style={{
+                                        color: "salmon",
+                                        fontWeight: "bold",
+                                    }}
+                                    href="/#"
+                                >
+                                    Visit Project
+                                </span>
+                            </td>
+                            <td>
+                                <h5>SOSIAL MEDIA</h5>
+                                <span>
+                                    Teach : Nodejs (express), MongoDb
+                                    (mongoose), ReactJs, Bootstrap 4
+                                </span>
+                                <p>
+                                    This is a social media project that was
+                                    built using the latest MERN technology
+                                </p>
+                                <p style={{ color: "red" }}>
+                                    processing time : 30 day
                                 </p>
                             </td>
                         </tr>

@@ -22,19 +22,22 @@ const Sidebar = (props) => {
                     <p>You can follow me on several of these platforms:</p>
                     <ul>
                         <li>
-                            <a href="#">GitHub</a>
+                            <a
+                                href="https://github.com/nurulcode"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub
+                            </a>
                         </li>
                         <li>
-                            <a href="#">GitLab</a>
-                        </li>
-                        <li>
-                            <a href="#">Medium</a>
-                        </li>
-                        <li>
-                            <a href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#">Facebook</a>
+                            <a
+                                href="https://gitlab.com/nurulcode"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitLab
+                            </a>
                         </li>
                     </ul>
                 </div>
