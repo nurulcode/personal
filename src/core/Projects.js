@@ -49,6 +49,7 @@ const Projects = () => {
                                 </p>
                             </td>
                         </tr>
+
                         <tr>
                             <td scope="row" style={{ textAlign: "center" }}>
                                 <img
@@ -56,22 +57,29 @@ const Projects = () => {
                                     alt="sosial media networks"
                                     style={{ width: "150px" }}
                                 />
-                                <p></p>
-                                <span
-                                    style={{
-                                        color: "salmon",
-                                        fontWeight: "bold",
-                                    }}
-                                    href="/#"
+                                <p>
+                                <a
+                                    href="https://peaceful-badlands-68305.herokuapp.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Api
+                                </a>
+                                </p>
+                                <a
+                                    href="https://suspicious-tesla-1381ac.netlify.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     Visit Project
-                                </span>
+                                </a>
+      
                             </td>
                             <td>
                                 <h5>SOSIAL MEDIA</h5>
                                 <span>
                                     Teach : Nodejs (express), MongoDb
-                                    (mongoose), ReactJs, Bootstrap 4
+                                    (mongoose), ReactJs, Bootstrap 4, herokuapp, netlify
                                 </span>
                                 <p>
                                     This is a social media project that was
