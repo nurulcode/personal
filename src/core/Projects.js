@@ -1,6 +1,7 @@
 import React from "react";
 import OpenSimrs from "../open-simrs.png";
 import SosialBlog from "../sosial-blog.png";
+import NurulShop from "../nurulshop.png";
 
 const Projects = () => {
     return (
@@ -93,7 +94,7 @@ const Projects = () => {
                         <tr>
                             <td scope="row" style={{ textAlign: "center" }}>
                                 <img
-                                    src={SosialBlog}
+                                    src={NurulShop}
                                     alt="sosial media networks"
                                     style={{ width: "150px" }}
                                 />
