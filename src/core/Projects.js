@@ -27,7 +27,6 @@ const Projects = () => {
                                     alt="Hospital management information system"
                                     style={{ width: "150px" }}
                                 />
-                                <p></p>
                                 <a
                                     href="https://simrs-dokterqu.herokuapp.com/"
                                     target="_blank"
@@ -57,15 +56,15 @@ const Projects = () => {
                                     alt="sosial media networks"
                                     style={{ width: "150px" }}
                                 />
-                                <p>
-                                <a
-                                    href="https://peaceful-badlands-68305.herokuapp.com/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Visit Api
-                                </a>
-                                </p>
+                                {/* <p>
+                                    <a
+                                        href="https://peaceful-badlands-68305.herokuapp.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Visit Api
+                                    </a>
+                                </p> */}
                                 <a
                                     href="https://suspicious-tesla-1381ac.netlify.app/"
                                     target="_blank"
@@ -73,13 +72,13 @@ const Projects = () => {
                                 >
                                     Visit Project
                                 </a>
-      
                             </td>
                             <td>
                                 <h5>SOSIAL MEDIA</h5>
                                 <span>
                                     Teach : Nodejs (express), MongoDb
-                                    (mongoose), ReactJs, Bootstrap 4, herokuapp, netlify
+                                    (mongoose), ReactJs, Bootstrap 4, herokuapp,
+                                    netlify
                                 </span>
                                 <p>
                                     This is a social media project that was
@@ -87,6 +86,37 @@ const Projects = () => {
                                 </p>
                                 <p style={{ color: "red" }}>
                                     processing time : 30 day
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row" style={{ textAlign: "center" }}>
+                                <img
+                                    src={SosialBlog}
+                                    alt="sosial media networks"
+                                    style={{ width: "150px" }}
+                                />
+                                <a
+                                    href="https://nurulshop-mkw.herokuapp.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Project
+                                </a>
+                            </td>
+                            <td>
+                                <h5>SOSIAL MEDIA</h5>
+                                <span>
+                                    Teach : Nodejs (express), MongoDb
+                                    (mongoose), ReactJs, Redux, Redux Thunk, PayPal,  React Bootstrap, herokuapp, 
+                                </span>
+                                <p>
+                                    This is a simple ecommerce that was
+                                    built using the latest MERN technology, menggunakan payment gateway paypal
+                                </p>
+                                <p style={{ color: "red" }}>
+                                    processing time : -+20 day
                                 </p>
                             </td>
                         </tr>
