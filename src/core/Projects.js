@@ -107,14 +107,14 @@ const Projects = () => {
                                 </a>
                             </td>
                             <td>
-                                <h5>SOSIAL MEDIA</h5>
+                                <h5>E COMMERCE</h5>
                                 <span>
                                     Teach : Nodejs (express), MongoDb
                                     (mongoose), ReactJs, Redux, Redux Thunk, PayPal,  React Bootstrap, herokuapp, 
                                 </span>
                                 <p>
                                     This is a simple ecommerce that was
-                                    built using the latest MERN technology, menggunakan payment gateway paypal
+                                    built using the latest MERN technology, using payment gateway paypal
                                 </p>
                                 <p style={{ color: "red" }}>
                                     processing time : -+20 day
